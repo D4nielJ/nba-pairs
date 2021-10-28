@@ -12,6 +12,7 @@ function App() {
     const fetchPlayers = async () => {
       const { data: { values } } = await axios.get('https://mach-eight.uc.r.appspot.com');
       setPlayers(values);
+      console.log(values);
     };
     fetchPlayers();
   }, []);
@@ -43,7 +44,7 @@ function App() {
 
           <table className="table-auto text-center">
             <thead>
-              <tr>
+              <tr className="bg-gray-600">
                 <Th>Player #1</Th>
                 <Th>H (in)</Th>
                 <Th>Player #2</Th>
