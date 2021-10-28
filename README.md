@@ -25,6 +25,7 @@ The data is served in json format by the endpoint `https://mach-eight.uc.r.appsp
 ### Prerequisites
 
 - NPM installed/added to your PATH
+- Yarn installed
 
 ### Setup
 
@@ -43,6 +44,7 @@ The data is served in json format by the endpoint `https://mach-eight.uc.r.appsp
 ### Run tests
 
 - `yarn test`
+- Press `a` to run all tests
 
 👤 **Daniel Jaramillo**
 
