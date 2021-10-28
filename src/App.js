@@ -12,7 +12,6 @@ function App() {
     const fetchPlayers = async () => {
       const { data: { values } } = await axios.get('https://mach-eight.uc.r.appspot.com');
       setPlayers(values);
-      console.log(values);
     };
     fetchPlayers();
   }, []);

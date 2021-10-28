@@ -16,32 +16,33 @@ The data is served in json format by the endpoint `https://mach-eight.uc.r.appsp
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://nba-pairs.netlify.app/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dc18b3c2-3d54-4a12-97cb-4fd0b62c0bec/deploy-status)](https://app.netlify.com/sites/nba-pairs/deploys)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
+
+- NPM installed/added to your PATH
 
 ### Setup
 
+- `git clone https://github.com/fernandorpm/space-travelers-hub.git`
+- `cd nba-pairs`
+
 ### Install
+
+- `yarn install`
 
 ### Usage
 
+- `yarn start`
+- You can use the search input to find players whose height adds up to your search.
+
 ### Run tests
 
-### Deployment
-
-
-
-## Authors
+- `yarn test`
 
 👤 **Daniel Jaramillo**
 
@@ -59,12 +60,6 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
