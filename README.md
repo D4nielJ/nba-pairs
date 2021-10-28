@@ -1,18 +1,18 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# NBAPairs
 
-# Project Name
+> This project searches through NBA players heights based on user input.
 
-> One paragraph statement about the project.
+![screenshot](./screenshot.png)
 
-![screenshot](./app_screenshot.png)
+This application takes a single integer to input. The application will download the raw data from the website `https://www.openintro.org/data/index.php?data=nba_heights` and print a list of all pairs of players whose height in inches adds up to the integer input to the application.
 
-Additional description about the project and its features.
+The data is served in json format by the endpoint `https://mach-eight.uc.r.appspot.com/`
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React.js
+- Tailwindcss
+- Jest
 
 ## Live Demo
 
