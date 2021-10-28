@@ -15,7 +15,8 @@ function App() {
     fetchPlayers();
   }, []);
 
-  const handleSearch = () => {
+  const handleSearch = (e) => {
+    e.preventDefault();
     if (players.length > 0) {
       setPairs(findPairs(players, input.current.value));
     }
@@ -24,16 +25,16 @@ function App() {
   return (
     <div className="App">
       <input ref={input} type="text" />
-      <button type="button" onClick={handleSearch}>Search</button>
+      <button type="submit" onClick={(e) => handleSearch(e)}>Search</button>
 
-      <ul>
+      {/* <ul>
         {pairs.length > 0
         && pairs.map((players) => (
           <li key={`${players[0].first_name} ${players[0].last_name} ${players[1].first_name} ${players[1].last_name}`}>
             {`${players[0].first_name} ${players[1].last_name}`}
           </li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 }
